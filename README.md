@@ -23,7 +23,7 @@ Docker Compose is a tool for defining and running multi-container Docker applica
 
 ## Instructions
 
-### Step 1: Install Docker and Docker Compose
+### Step 1: Install Docker and Docker Compose - CREATE A NEW FOLDER ON YOUR DESKTOP AND DOWNLOAD AND RUN EVERYTHING FROM THE NEW FOLDER YOU CREATE!!!
 
 #### For Windows:
 
@@ -42,7 +42,7 @@ In Visual Studio Code, open a new terminal and run the following commands to clo
 
 ```sh
 git clone https://github.com/booktoshi/NodeRunner-Windows-Docker-UC.git
-cd NodeRunner-Windows-Docker---UC
+cd NodeRunner-Windows-Docker-UC
 ```
 
 ### Step 4: Build the Docker Image
