@@ -41,7 +41,7 @@ Docker Compose is a tool for defining and running multi-container Docker applica
 In Visual Studio Code, open a new terminal and run the following commands to clone the repository containing the Docker setup files:
 
 ```sh
-git clone https://github.com/booktoshi/NodeRunner-Windows-Docker---UC.git
+git clone https://github.com/booktoshi/NodeRunner-Windows-Docker-UC.git
 cd NodeRunner-Windows-Docker---UC
 ```
 
