@@ -35,7 +35,7 @@ Docker Compose is a tool for defining and running multi-container Docker applica
 Clone the repository containing the Docker setup files:
 
 ```sh
-git clone https://github.com/booktoshi/doginals.git
+git clone https://github.com/booktoshi/NodeRunner-Windows-Docker---UC.git
 cd doginals
 ```
 
