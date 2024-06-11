@@ -1,5 +1,5 @@
-ner 
-# NODE RUNNER Dogecoin Node Docker Setup - Currently Updating Container. Check back for Updates.
+
+# NODE RUNNER Dogecoin Node Docker Setup - Currently Updating Container. Check back for Updates in a couple of days.
 
 ![Node Runners](images/docker.png)
 
@@ -11,6 +11,7 @@ This setup provides a Docker container that installs and configures a Dogecoin n
 
 - Docker
 - Docker Compose
+- Visual Studio Code
 
 ### What is Docker?
 
@@ -30,34 +31,39 @@ Docker Compose is a tool for defining and running multi-container Docker applica
 2. Follow the installation instructions for your operating system.
 3. Once installed, Docker and Docker Compose come bundled together.
 
-### Step 2: Clone the Repository
+### Step 2: Open Visual Studio Code
 
-Clone the repository containing the Docker setup files:
+1. Download and install Visual Studio Code from [Visual Studio Code's official website](https://code.visualstudio.com/).
+2. Open Visual Studio Code.
+
+### Step 3: Clone the Repository
+
+In Visual Studio Code, open a new terminal and run the following commands to clone the repository containing the Docker setup files:
 
 ```sh
 git clone https://github.com/booktoshi/NodeRunner-Windows-Docker---UC.git
-cd doginals
+cd NodeRunner-Windows-Docker---UC
 ```
 
-### Step 3: Build the Docker Image
+### Step 4: Build the Docker Image
 
-To build the Docker image, run the following command:
+To build the Docker image, run the following command in the terminal:
 
 ```sh
 docker build -t dogecoin-node .
 ```
 
-### Step 4: Run the Docker Container
+### Step 5: Run the Docker Container
 
-To start the Docker container, run the following command:
+To start the Docker container, run the following command in the terminal:
 
 ```sh
 docker-compose up -d
 ```
 
-### Step 5: Verify Dogecoin Node Status
+### Step 6: Verify Dogecoin Node Status
 
-To check the status of the Dogecoin node, run the following command:
+To check the status of the Dogecoin node, run the following command in the terminal:
 
 ```sh
 docker exec -it dogecoin_node dogecoin-cli getblockchaininfo
