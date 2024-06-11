@@ -1,5 +1,5 @@
 
-# NODE RUNNER Dogecoin Node Docker Setup - Currently Updating Container. Check back for Updates in a couple of days.
+# NODE RUNNER Dogecoin Node Docker Setup - Currently Updating Container. Check back for Updates.
 
 ![Node Runners](images/docker.png)
 
